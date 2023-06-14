@@ -6,9 +6,9 @@ const Posts = ({ postsData }) => {
 
   return (
     <div>
-      {postsData.posts?.map((post) => (
+      {/* {postsData.posts?.map((post) => (
         <DisplayPosts post={post}></DisplayPosts>
-      ))}
+      ))} */}
     </div>
   );
 };

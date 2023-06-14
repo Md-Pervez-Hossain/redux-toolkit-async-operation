@@ -6,3 +6,6 @@ export const instance = axios.create({
 export const usersInstance = axios.create({
   baseURL: "https://jsonplaceholder.typicode.com",
 });
+export const postInstance = axios.create({
+  baseURL: "https://jsonplaceholder.typicode.com",
+});
